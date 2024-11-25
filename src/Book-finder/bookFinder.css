@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .book-finder {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-finder h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #4a90e2, #50c878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .search-box input {
+    width: 60%;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 2px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .search-box input:focus {
+    border-color: #007bff;
+  }
+  
+  .search-box button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .book-card {
+    width: 160px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+    max-height: 160px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .book-card .text-center {
+    padding: 8px 10px;
+  }
+  
+  .book-card h5 {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  .book-card p {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 3px 0;
+  }
+  
+  .book-card a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .book-card a:hover {
+    background-color: #0056b3;
+  }
+  
+  .books-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 15px;
+  }
+  

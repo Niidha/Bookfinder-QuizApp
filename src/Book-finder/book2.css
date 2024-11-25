@@ -1,0 +1,41 @@
+.books-container {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); /* Adjust column width */
+    gap: 1rem; /* Space between items */
+  }
+  
+  .book-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .book-card .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
